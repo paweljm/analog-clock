@@ -1,0 +1,40 @@
+.container {
+    width: 500px;
+    height:500px;
+    margin: auto;
+    border: double 5px black;
+    border-radius: 50%;
+    background-color:lightcyan;
+}
+.hand {
+    width: 1px;
+    border: solid black 2px;
+    background-color: black;
+    position:relative;
+    left:250px;
+    transform-origin: bottom left;
+    transform: rotate(0deg);
+    transition: transform 0.2s;
+    border-radius: 20px;
+}
+.second {
+    height: 230px;
+    top: 20px;
+}
+.minute {
+    height: 190px;
+    top: -170px
+}
+.hour {
+    height: 150px;
+    top:-330px;
+}
+.center {
+    width:16px;
+    height:16px;
+    background-color: black;
+    position: relative;
+    bottom: 335px;
+    left: 245px;
+    border-radius: 50%;
+}
